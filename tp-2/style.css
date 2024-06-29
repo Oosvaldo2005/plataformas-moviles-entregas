@@ -49,7 +49,7 @@ h1:hover{
     
 }
 a:visited{
-    color: gray;
+    color: rgb(222, 215, 215);
 }
 a:[href*="http"]{
     color: #eee;
