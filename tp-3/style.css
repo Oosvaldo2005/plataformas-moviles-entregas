@@ -1,0 +1,48 @@
+/* style.css */
+
+/* Regla 1: Centrar el título <h1> */
+h1 {
+    text-align: center;
+  }
+  
+  /* Regla 2: Aplicar una fuente con serifas a todos los párrafos del documento */
+  p {
+    font-family: serif;
+  }
+  
+  /* Regla 3: Color de fondo para #primer-parrafo */
+  #primer-parrafo {
+    background-color: #CEE;
+  }
+  
+  /* Regla 4: Cambiar el color a #933 para los elementos <em> del primer párrafo */
+  #primer-parrafo em {
+    color: #933;
+  }
+  
+  /* Regla 5: Outline para todos los links */
+  a {
+    outline: 1px solid #333;
+  }
+  
+  /* Regla 6: Opacidad al 100% para p.fuente */
+  p.fuente {
+    opacity: 100%;
+  }
+  
+  /* Regla 7: Quitar sombra a párrafos sin id */
+  p:not([id]) {
+    text-shadow: none;
+  }
+  
+  /* Bonus Track 1: Color #000 para p.fuente */
+  p.fuente {
+    color: #000;
+  }
+  
+  /* Bonus Track 2: Negrita y color #C62 para .complicado */
+  span.complicado {
+    font-weight: bold;
+    color: #C62;
+  }
+  
